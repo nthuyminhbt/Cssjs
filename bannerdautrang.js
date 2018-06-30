@@ -117,7 +117,7 @@ $(window).load(function() {
 			$(divpopup).attr('id', 'myModal');
 			$(divpopup).attr('class', 'linhnguyen-modal');
 			$( "body" ).append(divpopup);
-			$("#myModal").html("<a href='https://www.facebook.com/nthuyminh' target='_blank'><img src='http://danhkhoireal.com/upload/hinhanh/3573268477.png' width='500px'/><br/>Dự án Barya Citi</a>Liên hệ hotline CĐT: 0934103134<h2><a class='close-linhnguyen-modal'>X</a></h2>");
+			$("#myModal").html("<a href='https://www.facebook.com/nthuyminh' target='_blank'><img src='http://danhkhoireal.com/upload/hinhanh/3573268477.png' width='500px'/><br/>Dự án Barya Citi</a> .Liên hệ hotline CĐT: 0934103134.<h2><a class='close-linhnguyen-modal'>X</a></h2>");
 			$('#myModal').linhnguyen($('#myModal').data());
 		}
 });
